@@ -29,3 +29,4 @@ syslog_client.o : syslog_client.c client.h
 install : syslogd libsyslog.so                      
 	@cp syslogd /usr/local/bin                         
 	@cp libsyslog.so libsyslog.so.x /usr/local/lib     
+	@mkdir -p /var/log 2>/dev/null || true
