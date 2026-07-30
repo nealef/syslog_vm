@@ -23,6 +23,7 @@ Applications need to build with the side file `/usr/local/lib/libsyslog.so.x`. F
 ```
 c89 -Wb,x /usr/local/lib/libsyslog.x -o target <files.o ...>
 ```
+**NOTE** - you need the PTF for APAR VM66913 (part of 7.5 and the FEATURE 06 FIX 03 Fix Pack for 7.4). This fixes a problem with loading shared libraries.
 ## Testing the Daemon
 Use the `logger` command on any Linux host:
 ```
