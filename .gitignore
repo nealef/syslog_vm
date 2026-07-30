@@ -1,0 +1,6 @@
+*.so
+*.x
+*.dbg
+*.o
+*.i
+syslogd
