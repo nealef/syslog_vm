@@ -1,6 +1,0 @@
-ERROR CCN3045 ./syslog_server.c:339   Undeclared identifier read_fds.
-ERROR CCN3045 ./syslog_server.c:386   Undeclared identifier client.
-ERROR CCN3343 ./syslog_server.c:405   Redeclaration of process_client_buffer differs from previous declaration on line 388 of "./syslog_server.c".
-INFORMATIONAL CCN3050 ./syslog_server.c:405   Return type "void" in redeclaration is not compatible with the previous return type "int".
-CCN0793(I) Compilation failed for file ./syslog_server.c.  Object file not created.
-make: *** [Makefile:15: syslog_server.o] Error 12
